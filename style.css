@@ -36,5 +36,43 @@ color: #FFF;
 text-align: center;
 font-size: 90px;
 font-weight: 900;
-line-height: 95px; /* 131.944% */
+line-height: 95px;  
+}
+
+/* section 1 styles */
+
+
+
+.section-title{
+  margin: 190px 150px;
+  text-align: center;
+}
+
+.section-title h1{
+color: #F00;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 50px;
+}
+
+.section-title p{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+
+.section-title h2{
+color: #070211;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 48px;
+}
+
+.section-1-image{
+width: 802.9px;
+height: 500px;
 }
