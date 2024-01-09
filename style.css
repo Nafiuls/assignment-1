@@ -669,6 +669,10 @@ hr {
   z-index: 2;
 }
 
+.social-media img:active{
+  opacity: 0.6;
+}
+
 .footer-flex-2 {
   display: flex;
   justify-content: space-between;
