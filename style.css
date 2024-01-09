@@ -6,6 +6,12 @@
   font-family: merriweather;
 }
 
+/* fixing x axis scroll bar */
+
+body {
+  overflow-x: hidden;
+}
+
 /* header styles starts here */
 
 header {
@@ -432,7 +438,6 @@ header {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
- 
 }
 
 /* portfolio text div h1 styles */
@@ -602,7 +607,6 @@ footer {
 .footer-flex {
   display: flex;
   justify-content: space-between;
-
 }
 
 .address {
@@ -638,80 +642,78 @@ footer {
 }
 
 hr {
-  color:rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.15);
   width: 99%;
   height: 0.1px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.social-media{
+.social-media {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-top: 48px;
   margin-bottom: 48px;
-  
 }
-.social-media img{
+.social-media img {
   border-radius: 51%;
   transition: 0.15s;
   cursor: pointer;
 }
 
-.social-media img:hover{
-box-shadow: 0px 0px 10px rgba(255, 255, 255,0.6 );  
-transform: scale(1.2);
-z-index: 2;
+.social-media img:hover {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+  transform: scale(1.2);
+  z-index: 2;
 }
 
-
-.footer-flex-2{
+.footer-flex-2 {
   display: flex;
   justify-content: space-between;
 }
 
-.copyright{
+.copyright {
   color: white;
   width: 375px;
   height: 80px;
   padding-left: 30px;
   padding-top: 50px;
-
 }
 
-.copyright p{
+.copyright p {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
 }
 
-.unsubscribe{
+.unsubscribe {
   color: white;
   width: 375px;
   height: 80px;
   padding-top: 50px;
-
 }
 
-.unsubscribe p{
+.unsubscribe p {
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
 }
 
-.unsubscribe p{
+.unsubscribe p {
   cursor: pointer;
   transition: 0.15s;
   background: transparent;
 }
 
-.unsubscribe p:hover{  
+.unsubscribe p:hover {
   transform: scale(1.2);
-  z-index: 2; 
+  z-index: 2;
 }
 
+.unsubscribe p:active{
+  color: lightgrey;
+}
 
-
-
+/* The End Alhamdulillah */
