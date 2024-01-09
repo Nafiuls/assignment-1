@@ -258,7 +258,7 @@ header {
   text-align: left;
 }
 
-/* section 1 content 1 div title styles */
+/* section 4 content 1 div title styles */
 
 .content-1-title {
   color: red;
@@ -474,14 +474,14 @@ header {
   border-radius: 15px;
   margin: 0px 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-  transition: 0.6s;
+  transition: 0.15s;
   cursor: pointer;
 }
 
 /* image hover effects */
 
 .portfolio-images img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: 2;
 }
 
